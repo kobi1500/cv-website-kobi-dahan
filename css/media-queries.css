@@ -1,0 +1,289 @@
+
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+    header .banner-text h1 {
+        font: 80px/1.1em 'opensans-bold', sans-serif;
+        letter-spacing: -1px;
+        margin: 0 auto 12px auto;
+    }
+
+    .formLogin{
+        width:85% !important;
+    }
+
+}
+@media screen and (max-width: 1024px) and (orientation: landscape){
+    .footer{
+        margin-top:35px;
+    }
+
+
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+
+    .footer{
+        margin-top:35px;
+    }
+
+}
+
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+    header .banner { padding-bottom: 12px; }
+    header .banner-text h1 {
+        font: 78px/1.1em 'opensans-bold', sans-serif;
+        letter-spacing: -1px;      
+    }
+    header .banner-text h3 {
+        font: 17px/1.9em 'librebaskerville-regular', serif;
+        width: 80%;
+    }
+    header .banner-text hr {
+        width: 65%;
+        margin: 12px auto;
+    }
+
+
+
+    /* About Section
+    ------------------------------------------------------------------- */
+    #about .profile-pic {
+        width: 114px;
+        height: 114px;
+        margin-left: 12px;
+    }
+    #about .contact-details { width: 50%; }
+    #about .download { width: 50%; }
+
+    /* Resume Section
+    ------------------------------------------------------------------- */
+    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+    #resume .main-col { padding-right: 5%; }
+   
+
+
+
+
+
+}
+
+
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+
+
+
+
+/* Header Styles
+-------------------------------------------------------------------- */
+header .banner {
+    padding-bottom: 12px;
+    padding-top: 6px;
+}
+header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+header .banner-text h3 {
+    font: 16px/1.9em 'librebaskerville-regular', serif;
+    width: 85%;
+}
+header .banner-text hr {
+    width: 80%;
+    margin: 18px auto;
+}
+
+/* header social links */
+header .social {
+    margin: 18px 0 24px 0;
+    font-size: 24px;
+    line-height: 36px;      
+}
+header .social li { margin: 0 10px; }
+
+/* scrolldown link */
+header .scrolldown { display: none; }
+
+
+/* About Section
+-------------------------------------------------------------------- */
+#about .download .button {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+}
+#about .main-col { padding-right: 30px; }
+
+
+/* Resume Section
+--------------------------------------------------------------------- */
+#resume .header-col {
+    padding-top: 0;
+    margin-bottom: 48px;
+    text-align: center;
+}
+#resume h1 { letter-spacing: 3px; }
+#resume .main-col { padding-right: 30px; }
+#resume h3, #resume .info { text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+
+    /* mobile navigation
+    -------------------------------------------------------------------- */
+
+
+
+    /* header styles
+    -------------------------------------------------------------------- */
+    header .banner { padding-top: 24px; }
+    header .banner-text h1 {
+        font: 40px/1.1em 'opensans-bold', sans-serif;      
+        margin: 0 auto 24px auto;
+    }
+    header .banner-text h3 {
+        font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+        width: 90%;
+    }
+
+    /* header social links */
+    header .social { font-size: 20px;}
+    header .social li { margin: 0 6px; }
+
+    /* footer
+    ------------------------------------------------------------------------ */
+
+    /* social links */
+    footer .social-links { font-size: 20px; }
+    footer .social-links li { margin-left: 14px; }   
+    .navbar-fixed-top .collapse .login a {
+        margin-left: 0;
+        width: 23%;
+
+    }
+    .navbar-fixed-top .navbar-toggle .icon-bar{
+        height: 4px; 
+    }
+    img{
+        width:100px;
+    }
+    .comments-area{
+        display: none;
+    }
+
+    #comment1 input, #comment1 textarea{
+        width:100%;
+        margin-right:40px;
+
+    }
+    
+}
+
+    @media screen and (min-width:640px){
+        .formEmail p{
+            width:100% !important;
+        }
+        .formEmail p /*:not(:last-child)*/{
+            width:100% !important;
+        }
+        body{
+
+            margin-top:72px;
+        }
+        
+        #comment1 input, #comment1 textarea{
+            width:80%;
+            margin-right:40px;
+
+        }
+
+    }
+
+
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+        html {
+            font-size: 70%;
+        }
+
+        .navbar-fixed-top .collapse .login a {
+            margin-left:0;
+            width:22%;
+        }
+        .comments-area{
+            display: none;
+        }
+
+    }
+    @media screen and (max-width:640px){
+
+        .form input{
+            width: 96% !important;
+        }
+        body{
+            margin-top:51px;
+        }
+        .comments-area{
+            display: none;
+        }
+        #comment1{
+            padding:10px;
+        }
+        #buttonPress{
+            width:60% !important;
+        }
+        .buttonForm{
+            margin-bottom:15px;
+        }
+        #comment1 input, #comment1 textarea{
+            width:100%;
+            margin-right:80px;
+
+        }
+        .comment-text{
+            width: 100%;
+            min-height: 43px !important;
+            margin-top: 10px;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-bottom: 27px;
+
+        }
+    }
+
+
+
+    @media (max-width: 320px) {
+
+        .navbar-fixed-top .collapse .login a {
+            width: 36%;
+        }
+
+    }
+    
+
+
+

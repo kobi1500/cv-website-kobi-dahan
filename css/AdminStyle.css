@@ -1,0 +1,29 @@
+*{
+    direction: rtl;
+}
+
+
+.formLogin{
+    width: 50%;
+    text-align: center;
+    margin: 15% auto;
+}
+#loginForm{
+    padding: 20px 0px;
+    background: rgba(0,0,0,0.2);
+    border: 30px double rgba(0,0,0,0.3);
+    border-radius: 30px;
+}
+@media(max-width:480px){
+
+    .footer{
+        margin-top:200px;
+    }
+
+}
+@media(max-width:375px){
+    .footer{
+        margin-top:200px;
+    }
+
+}

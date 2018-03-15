@@ -1,0 +1,26 @@
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display:none;
+  width: 100%;
+
+}
+.rslides li{
+  position: relative;
+  display:block;
+  float: left;
+}
+.rslides img {
+  height: 100%;
+  width:100%;
+  border: 0;
+  }
